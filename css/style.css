@@ -5,6 +5,12 @@
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+} 
 
 html {
   font-family: sans-serif; /* 1 */
@@ -432,3 +438,66 @@ body {
 div {
   border: 1px solid Chocolate;
 }
+
+/*.top-navigation {
+  background-color: white;
+  background-size: cover;
+  background-position: center;
+  overflow: auto;
+}
+
+.top-navigation > .content {
+  width: 1.625em;
+  height: 4.375em;
+  margin: 0 auto;
+  padding: 0 0.938em;
+}
+
+.top-navigation a {
+
+  color: gray;
+  padding: 1em;
+  font-size: 1em;
+  font-family: 'Roboto';
+  float: right;
+  text-decoration: none;
+}
+nav a:hover {
+  color: black;
+}*/
+./**
+ * Navigation Section
+ */
+.top-navigation {
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid #DDD;
+    z-index: 9999;
+    overflow: auto;
+}
+.top-navigation > .content {
+    height: 4.375rem;
+}
+.top-navigation .logo {
+    height: 4.375rem;
+}
+.top-navigation .links {
+    float: right;
+    color: #838994;
+    font-size: 1.04rem;
+    margin-top: 1.7rem;
+}
+.top-navigation .links li {
+    display: inline-block;
+    margin-left: 1.563rem;
+}
+.top-navigation .links li.active {
+    color: #4c5058;
+    font-weight: 500;
+}
+.top-navigation .links li:hover {
+    cursor: pointer;
+    color: #333333;
+}
+
