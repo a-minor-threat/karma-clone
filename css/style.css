@@ -5,12 +5,12 @@
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
-/*html {
+html {
   box-sizing: border-box;
 }
 *, *:before, *:after {
   box-sizing: inherit;
-} */
+} 
 
 html {
   font-family: sans-serif; /* 1 */
@@ -466,10 +466,12 @@ body {
 nav a:hover {
   color: black;
 }*/
-./**
+/**
  * Navigation Section
  */
-.top-navigation {
+
+
+nav {
     background-color: #fff;
     position: fixed;
     width: 100%;
@@ -479,6 +481,7 @@ nav a:hover {
     border-bottom: 1px solid #DDD;
     z-index: 9999;
     overflow: auto;
+
 }
 .top-navigation > .content {
     height: 4.375rem;
