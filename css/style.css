@@ -13,41 +13,12 @@ html {
 } 
 
 html {
-  font-family: sans-serif; /* 1 */
+  font-family: 'Roboto'; /* 1 */
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
 }
 
-/*div {
-  border: 1px solid Chocolate;
-}*/
 
-/*.top-navigation {
-  background-color: white;
-  background-size: cover;
-  background-position: center;
-  overflow: auto;
-}
-
-.top-navigation > .content {
-  width: 1.625em;
-  height: 4.375em;
-  margin: 0 auto;
-  padding: 0 0.938em;
-}
-
-.top-navigation a {
-
-  color: gray;
-  padding: 1em;
-  font-size: 1em;
-  font-family: 'Roboto';
-  float: right;
-  text-decoration: none;
-}
-nav a:hover {
-  color: black;
-}*/
 /**
  * Navigation Section
  */
@@ -70,6 +41,7 @@ nav {
 }
 .top-navigation .logo {
     height: 4.375rem;
+    margin-left: 350px;
 }
 .top-navigation .links {
     float: right;
@@ -163,7 +135,9 @@ button:hover {
   height: 127px;
   width: 127px;
   margin: 0 auto;
+  margin-left: 170px;
   float: left;
+  padding-left: 10px;
 }
 /**
  * Footer
