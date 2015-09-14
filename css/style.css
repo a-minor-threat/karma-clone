@@ -33,8 +33,11 @@ nav {
     border-top: 0;
     border-bottom: 1px solid #DDD;
     z-index: 9999;
+<<<<<<< HEAD
     overflow: auto;
     padding-right: 100px;
+=======
+>>>>>>> b460e03716f05835170f26b90f7e20d3c49ab7ec
 
 }
 .top-navigation > .content {
