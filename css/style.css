@@ -26,6 +26,7 @@ html {
 nav {
     background-color: #fff;
     position: fixed;
+    padding-right: 100px;
     width: 100%;
     top: 0;
     left: 0;
@@ -130,13 +131,15 @@ button:hover {
   display: inline-block;
  /* box-sizing: border-box; */
 }
-.devices > img {
+.device-images {
+
   height: 127px;
   width: 127px;
   margin: 0 auto;
   margin-left: 170px;
   float: left;
   padding-left: 10px;
+
 }
 /**
  * Footer
