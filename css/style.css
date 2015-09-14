@@ -32,7 +32,7 @@ nav {
     border-top: 0;
     border-bottom: 1px solid #DDD;
     z-index: 9999;
-    overflow: auto;
+
 
 }
 .top-navigation > .content {
