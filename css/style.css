@@ -34,6 +34,7 @@ nav {
     border-bottom: 1px solid #DDD;
     z-index: 9999;
     overflow: auto;
+    padding-right: 100px;
 
 }
 .top-navigation > .content {
@@ -131,7 +132,8 @@ button:hover {
   display: inline-block;
  /* box-sizing: border-box; */
 }
-.device-images {
+.device-images
+ {
   height: 127px;
   width: 127px;
   margin: 0 auto;
