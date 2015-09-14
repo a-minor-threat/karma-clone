@@ -131,7 +131,7 @@ button:hover {
   display: inline-block;
  /* box-sizing: border-box; */
 }
-.devices > img {
+.device-images {
   height: 127px;
   width: 127px;
   margin: 0 auto;
