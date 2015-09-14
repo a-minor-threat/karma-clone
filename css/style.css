@@ -30,10 +30,10 @@ nav {
     width: 100%;
     top: 0;
     left: 0;
+    padding-right: 100px;
     border-top: 0;
     border-bottom: 1px solid #DDD;
     z-index: 9999;
-    overflow: auto;
 
 }
 .top-navigation > .content {
@@ -41,7 +41,7 @@ nav {
 }
 .top-navigation .logo {
     height: 4.375rem;
-    margin-left: 350px;
+    margin-left: 30px;
 }
 .top-navigation .links {
     float: right;
@@ -120,6 +120,9 @@ button:hover {
 /*cases section */
 .cases {
   width: 100%;
+  text-align:center;
+  max-width: 960px;
+  margin:0 auto;
 }
 
 .cases > h2 {
@@ -129,14 +132,13 @@ button:hover {
 .devices {
   width: 33%;
   display: inline-block;
+  text-align:center;
  /* box-sizing: border-box; */
 }
 .device-images {
   height: 127px;
   width: 127px;
   margin: 0 auto;
-  margin-left: 170px;
-  float: left;
   padding-left: 10px;
 }
 /**
