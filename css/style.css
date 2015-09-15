@@ -34,14 +34,6 @@ nav {
     border-top: 0;
     border-bottom: 1px solid #DDD;
     z-index: 9999;
-<<<<<<< HEAD
-<<<<<<< HEAD
-    overflow: auto;
-    padding-right: 100px;
-=======
->>>>>>> b460e03716f05835170f26b90f7e20d3c49ab7ec
-=======
->>>>>>> da6538c9f5451640eabaaaccada35b9f93d62329
 
 }
 .top-navigation > .content {
@@ -143,12 +135,11 @@ button:hover {
   text-align:center;
  /* box-sizing: border-box; */
 }
-<<<<<<< HEAD
+
 .device-images
  {
-=======
-.device-images {
->>>>>>> da6538c9f5451640eabaaaccada35b9f93d62329
+
+
   height: 127px;
   width: 127px;
   margin: 0 auto;
